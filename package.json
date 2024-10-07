@@ -1,0 +1,31 @@
+{
+  "name": "micro-frontend-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start:server\" \"npm run start:main\" \"npm run start:microfrontend1\"",
+    "start:server": "cd ./server && npx json-server --watch db.json --port 8000",
+    "start:main": "cd ./main && npm start",
+    "start:microfrontend1": "cd ./microfrontend1 && npm start",
+    "start:all": "yarn workspaces run start",
+    "cleanup": "yarn workspaces run cleanup"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Ajay Benedict",
+    "email": "ajay.loyola@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "react-bootstrap": "^2.10.5",
+    "web-vitals": "^4.2.3"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.24.7"
+  }
+}

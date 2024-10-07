@@ -1,0 +1,9 @@
+// import global styles
+@import './global/reset';
+@import './global/variables';
+
+// import atomic styles
+@import './atoms/button';
+@import './atoms/input';
+@import './molecules/form';
+@import './organisms/itemList';

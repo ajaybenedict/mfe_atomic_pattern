@@ -1,0 +1,37 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .main-content {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  aside {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  
+  aside ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  aside ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .dashboard {
+    flex: 1;
+    padding: 20px;
+  }

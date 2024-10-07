@@ -1,0 +1,21 @@
+.taskList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--spacing);
+    border-bottom: 1px solid var(--secondary-color);
+  }
+  
+  .taskTitle {
+    flex-grow: 1;
+  }
+  
+  .taskActions {
+    display: flex;
+    gap: var(--spacing);
+  }

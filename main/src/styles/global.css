@@ -1,0 +1,49 @@
+:root {
+    /* Theme colors */
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --background-color: #f8f9fa;
+    --text-color: #333;
+  
+    /* Typography */
+    --font-family: 'Arial', sans-serif;
+    --font-size: 16px;
+  
+    /* Spacing and layout */
+    --spacing: 8px;
+    --border-radius: 4px;
+  }
+  
+  /* Reset some default browser styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* Global typography */
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: calc(var(--spacing) * 2);
+    color: var(--primary-color);
+  }
+  
+  p {
+    margin-bottom: var(--spacing);
+  }
+  
+  /* Utility classes for margins, text alignment, etc. */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-1 { margin-top: var(--spacing); }
+  .mt-2 { margin-top: calc(var(--spacing) * 2); }
+  .mt-3 { margin-top: calc(var(--spacing) * 3); }
+  
+  /* To Add more utility classes like padding, margins, flex utilities, etc. */

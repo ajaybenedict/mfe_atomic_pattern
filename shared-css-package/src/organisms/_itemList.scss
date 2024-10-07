@@ -1,0 +1,12 @@
+.item-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .item-list li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
